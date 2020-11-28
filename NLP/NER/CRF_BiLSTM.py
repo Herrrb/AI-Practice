@@ -231,6 +231,7 @@ class BILSTMModel(object):
             print("Epoch {}, Val Loss: {:.4f}".format(e, val_loss))
 
     def train_step(self, batch_sents, batch_tags, word2id, tag2id):
+        # 用作测试
         self.model.train()
         self.step += 1
 
