@@ -53,8 +53,7 @@ def cal_lstm_crf_loss(crf_scores, targets, tag2id):
         # 当前时刻 有效的batch_size（因为有些序列比较短)
         batch_size_t = (lengths > t).sum().item()
         if t == 0:
-            scores_upto_t[:batch_size_t] = crf_scores[:batch_size_t,
-                                           t, start_id, :]
+            scores_upto_t[:batch_size_t] = crf_scores[:batch_size_t, t, start_id, :]
         else:
             # We add scores at current timestep to scores accumulated up to previous
             # timestep, and log-sum-exp Remember, the cur_tag of the previous
@@ -105,7 +104,7 @@ class BiLSTM_CRF(nn.Module):
 
         return crf_scores
 
-    def test(self, test_sents_tensor, lengths, tag2id):
+    def  test(self, test_sents_tensor, lengths, tag2id):
         # 使用维特比算法进行解码
         start_id = tag2id['<start>']
         end_id = tag2id['<end>']
