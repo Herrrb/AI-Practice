@@ -104,7 +104,7 @@ class BiLSTM_CRF(nn.Module):
 
         return crf_scores
 
-    def  test(self, test_sents_tensor, lengths, tag2id):
+    def test(self, test_sents_tensor, lengths, tag2id):
         # 使用维特比算法进行解码
         start_id = tag2id['<start>']
         end_id = tag2id['<end>']
@@ -332,6 +332,25 @@ def main():
     pred_tag_lists, test_tag_lists = model.test(test_word, test_tag, crf_word2id, crf_tag2id)
     metrics = Metrics(test_tag_lists, pred_tag_lists, True)
     metrics.report_scores()
+
+    a = "文浩斌，男，在西安电子科技大学做汇报，一个平平无奇的干饭人罢了，也可能是个西安的汉族硕士研究生"
+    sentence = [[i for i in a]]
+    tensorized_sents, lengths = tensorized(sentence, word2id)
+    tensorized_sents = tensorized_sents.to(model.device)
+    with torch.no_grad():
+        batch_tagid = model.best_model.test(
+            tensorized_sents, [len(a)], crf_tag2id
+        )
+    pred_tag_lists = []
+    id2tag = dict((id_, tag) for tag, id_ in crf_word2id.items())
+    for i, ids in enumerate(batch_tagid):
+        tag_list = []
+        for j in range(lengths[i]):
+            tag_list.append(id2tag[ids[j].item()])
+        pred_tag_lists.append(tag_list)
+    for i in range(len(a)):
+        print("{:>3s} --- {:>3s}".format(a[i], pred_tag_lists[0][i]))
+    exit()
 
 
 if __name__ == '__main__':
