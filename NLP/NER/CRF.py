@@ -61,6 +61,10 @@ def main():
     pred_sequence = crf_model.test(test_word)
     metrics_ = Metrics(test_tag, pred_sequence, False)
     metrics_.report_scores()
+    sentence = "文浩斌，男，在西安电子科技大学做汇报，一个平平无奇的干饭人罢了，也可能是个西安的汉族硕士研究生"
+    pred_sequence_ = crf_model.test([[i for i in sentence]])
+    for i in range(len(pred_sequence_[0])):
+        print(sentence[i] + "---" + pred_sequence_[0][i])
 
     # 优化参数
     # crf_model = CRF(algorithm='lbfgs',

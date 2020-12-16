@@ -342,10 +342,10 @@ def main():
             tensorized_sents, [len(a)], crf_tag2id
         )
     pred_tag_lists = []
-    id2tag = dict((id_, tag) for tag, id_ in crf_word2id.items())
+    id2tag = dict((id_, tag) for tag, id_ in crf_tag2id.items())
     for i, ids in enumerate(batch_tagid):
         tag_list = []
-        for j in range(lengths[i]):
+        for j in range(lengths[i] - 1):
             tag_list.append(id2tag[ids[j].item()])
         pred_tag_lists.append(tag_list)
     for i in range(len(a)):

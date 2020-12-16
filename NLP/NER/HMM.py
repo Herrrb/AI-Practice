@@ -219,11 +219,9 @@ def main():
     model = HMM(len(train_tag2id), len(train_word2id))
     model.train(train_word, train_tag, train_word2id, train_tag2id)
     pred_sequence = model.test(test_word, train_word2id, train_tag2id)
-    pred_sequence_ = model.test([[i for i in "刘权，1997年生人，西安电子科技大学，教授"],
-                                 [i for i in "俞志鹏，男，汉族，中科院院士"]], train_word2id, train_tag2id)
-    print(pred_sequence_)
     metrics = Metrics(test_tag, pred_sequence, False)
     metrics.report_scores()
+    metrics.test(model, train_word2id, train_tag2id)
 
 
 if __name__ == '__main__':

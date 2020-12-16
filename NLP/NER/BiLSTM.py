@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from HMM import load_data
 from copy import deepcopy
-from utils import save_model
+from utils import save_model, load_model
 from evaluation import Metrics
 
 
@@ -223,9 +223,6 @@ class BILSTMModel(object):
         pred_tag_lists = [pred_tag_lists[i] for i in indices]
         tag_lists = [tag_lists[i] for i in indices]
 
-        print(pred_tag_lists)
-        print(tag_lists)
-
         return pred_tag_lists, tag_lists
 
 
@@ -253,6 +250,26 @@ def main():
     bilstm_word2id, bilstm_tag2id = extend_maps(word2id, tag2id, False)
     # 接下来就是构造这个BiLSTM模型是如何训练的了
 
+    model = load_model("BiLSTM.pkl")
+    a = "文浩斌，男，在西安电子科技大学做汇报，一个平平无奇的干饭人罢了，也可能是个西安的汉族硕士研究生"
+    sentence = [[i for i in a]]
+    tensorized_sents, lengths = tensorized(sentence, word2id)
+    tensorized_sents = tensorized_sents.to(model.device)
+    with torch.no_grad():
+        batch_tagid = model.best_model.test(
+            tensorized_sents, [len(a)], bilstm_tag2id
+        )
+    pred_tag_lists = []
+    id2tag = dict((id_, tag) for tag, id_ in bilstm_tag2id.items())
+    for i, ids in enumerate(batch_tagid):
+        tag_list = []
+        for j in range(lengths[i]):
+            tag_list.append(id2tag[ids[j].item()])
+        pred_tag_lists.append(tag_list)
+    for i in range(len(a)):
+        print("{:>3s} --- {:>3s}".format(a[i], pred_tag_lists[0][i]))
+    exit()
+
     start = time.time()
     vocab_size = len(word2id)
     out_size = len(tag2id)
@@ -275,3 +292,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

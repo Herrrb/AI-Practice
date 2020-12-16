@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0b7bcc-aa71-4553-9612-18b12b6a7f98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tf-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tf-examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/NER/BiLSTM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NER/BiLSTM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/NER/BiLSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NER/BiLSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/NER/CRF.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NER/CRF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP/NER/CRF_BiLSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NER/CRF_BiLSTM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/NER/HMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NER/HMM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/NER/evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/NER/evaluation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +46,21 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Herrrb\Desktop\tf-examples\NLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CRF_BiLSTM">
+  <component name="RunManager" selected="Python.BiLSTM">
     <configuration name="BiLSTM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tf-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,10 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CRF_BiLSTM" />
-        <item itemvalue="Python.HMM" />
         <item itemvalue="Python.BiLSTM" />
         <item itemvalue="Python.CRF" />
+        <item itemvalue="Python.HMM" />
+        <item itemvalue="Python.CRF_BiLSTM" />
         <item itemvalue="Python.text_classification" />
       </list>
     </recent_temporary>
@@ -186,6 +193,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -242,6 +250,10 @@
       <workItem from="1606534012541" duration="1098000" />
       <workItem from="1606790877798" duration="3809000" />
       <workItem from="1606907049783" duration="2578000" />
+      <workItem from="1607937984975" duration="90000" />
+      <workItem from="1607938141269" duration="184000" />
+      <workItem from="1607938343429" duration="1024000" />
+      <workItem from="1608081856550" duration="10101000" />
     </task>
     <task id="LOCAL-00001" summary="Test github for Pycharm">
       <created>1606534293461</created>
@@ -261,114 +273,43 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test github for Pycharm" />
     <option name="LAST_COMMIT_MESSAGE" value="Test github for Pycharm" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="166" key="#xdebugger.XInspectDialog" timestamp="1601820536279">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="166" key="#xdebugger.XInspectDialog/0.0.1536.824@0.0.1536.824" timestamp="1601820536279" />
-    <state x="372" y="3" key="CommitChangelistDialog2" timestamp="1606534414587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="372" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606534414587" />
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603194082401" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948830935" />
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603194082401" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948830935" />
-    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603194082400" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948830935" />
-    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603194082401" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948830935" />
-    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237917" />
-    <state width="1877" height="323" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948420133" />
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1877" height="323" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948420133" />
-    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1877" height="323" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948420133" />
-    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1606826167525">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1601637237902" />
-    <state width="1877" height="323" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601948420133" />
-    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606826167525" />
-    <state x="579" y="123" key="RollbackChangesDialog" timestamp="1606911046488">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="579" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606911046488" />
-    <state x="253" y="70" key="SettingsEditor" timestamp="1606534139300">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="74" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602549667648" />
-    <state x="253" y="70" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606534139300" />
-    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1602039360265">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1602039360265" />
-    <state x="832" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1606907049501">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="832" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603504448483" />
-    <state x="2960" y="299" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603671813021" />
-    <state x="832" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606907049501" />
-    <state x="1040" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603762566836" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603597503597">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603597503597" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NLP/NER/BiLSTM.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tf_examples$generate_rnn_word.coverage" NAME="generate_rnn_word Coverage Results" MODIFIED="1602039413062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP" />
+    <SUITE FILE_PATH="coverage/AI_Practice$HMM.coverage" NAME="HMM Coverage Results" MODIFIED="1608091397150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
     <SUITE FILE_PATH="coverage/tf_examples$text_classification.coverage" NAME="text_classification Coverage Results" MODIFIED="1603075100679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tf_examples$example5.coverage" NAME="example5 Coverage Results" MODIFIED="1599998065505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/tf_examples$HMM.coverage" NAME="HMM Coverage Results" MODIFIED="1606292072246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
+    <SUITE FILE_PATH="coverage/tf_examples$example6.coverage" NAME="example6 Coverage Results" MODIFIED="1600000088845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/tf_examples$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1597649520825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/AI_Practice$CRF_BiLSTM.coverage" NAME="CRF_BiLSTM Coverage Results" MODIFIED="1608087716873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
+    <SUITE FILE_PATH="coverage/tf_examples$BiLSTM.coverage" NAME="BiLSTM Coverage Results" MODIFIED="1605626429536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
+    <SUITE FILE_PATH="coverage/tf_examples$generate_rnn_word.coverage" NAME="generate_rnn_word Coverage Results" MODIFIED="1602039413062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP" />
     <SUITE FILE_PATH="coverage/tf_examples$text_pre.coverage" NAME="text_pre Coverage Results" MODIFIED="1601026581378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/tf_examples$generation_rnn.coverage" NAME="generation_rnn Coverage Results" MODIFIED="1602582370944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP" />
+    <SUITE FILE_PATH="coverage/tf_examples$example4.coverage" NAME="example4 Coverage Results" MODIFIED="1598939153937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
     <SUITE FILE_PATH="coverage/tf_examples$load_data.coverage" NAME="load_data Coverage Results" MODIFIED="1600306214512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
     <SUITE FILE_PATH="coverage/tf_examples$neural_style_transfer.coverage" NAME="neural_style_transfer Coverage Results" MODIFIED="1600941238276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
-    <SUITE FILE_PATH="coverage/tf_examples$BiLSTM.coverage" NAME="BiLSTM Coverage Results" MODIFIED="1605626429536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
-    <SUITE FILE_PATH="coverage/tf_examples$HMM.coverage" NAME="HMM Coverage Results" MODIFIED="1606292072246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
-    <SUITE FILE_PATH="coverage/tf_examples$CRF_BiLSTM.coverage" NAME="CRF_BiLSTM Coverage Results" MODIFIED="1606791753643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
-    <SUITE FILE_PATH="coverage/tf_examples$example_start.coverage" NAME="example_start Coverage Results" MODIFIED="1602591943695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pytorch" />
-    <SUITE FILE_PATH="coverage/tf_examples$example4.coverage" NAME="example4 Coverage Results" MODIFIED="1598939153937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
-    <SUITE FILE_PATH="coverage/tf_examples$generation_rnn.coverage" NAME="generation_rnn Coverage Results" MODIFIED="1602582370944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP" />
     <SUITE FILE_PATH="coverage/tf_examples$CRF.coverage" NAME="CRF Coverage Results" MODIFIED="1604841263569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
-    <SUITE FILE_PATH="coverage/tf_examples$example6.coverage" NAME="example6 Coverage Results" MODIFIED="1600000088845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/AI_Practice$BiLSTM.coverage" NAME="BiLSTM Coverage Results" MODIFIED="1608092517225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
+    <SUITE FILE_PATH="coverage/tf_examples$example5.coverage" NAME="example5 Coverage Results" MODIFIED="1599998065505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/tf_examples$CRF_BiLSTM.coverage" NAME="CRF_BiLSTM Coverage Results" MODIFIED="1606791753643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
+    <SUITE FILE_PATH="coverage/AI_Practice$CRF.coverage" NAME="CRF Coverage Results" MODIFIED="1608092262970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP/NER" />
     <SUITE FILE_PATH="coverage/tf_examples$word_embedding.coverage" NAME="word_embedding Coverage Results" MODIFIED="1601109801368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
-    <SUITE FILE_PATH="coverage/tf_examples$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1597649520825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
+    <SUITE FILE_PATH="coverage/tf_examples$example_start.coverage" NAME="example_start Coverage Results" MODIFIED="1602591943695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pytorch" />
   </component>
 </project>

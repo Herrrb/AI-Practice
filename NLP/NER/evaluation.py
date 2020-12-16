@@ -101,3 +101,9 @@ class Metrics(object):
             weighted_average[metric] /= total
 
         return weighted_average
+
+    def test(self, model, word2id, tag2id):
+        sentence = "文浩斌，男，在西安电子科技大学做汇报，一个平平无奇的干饭人罢了，也可能是个西安的汉族硕士研究生"
+        pred_sequence_ = model.test([[i for i in sentence]], word2id, tag2id)
+        for i in range(len(pred_sequence_[0])):
+            print(sentence[i] + "---" + pred_sequence_[0][i])
